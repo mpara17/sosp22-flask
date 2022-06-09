@@ -11,7 +11,7 @@ def hello():
 fav_cats = [
         {'Harsh': 'Indian Billi'},
         {'Mon': 'Calico'},
-        {'Saurav': 'All cats!}',
+        {'Saurav': 'All cats!'},
         {'Drshi': 'Maine Coons'}]
 
 
@@ -37,5 +37,5 @@ def edit_cat(name):
 
 @app.route('/favcat/<string:name>', methods=['DELETE'])
 def delete_cat(name):
-    # @TODO: delete a staff :(
+    # @TODO: delete a staff and their favorite cat :(
     return jsonify()
