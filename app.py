@@ -9,9 +9,9 @@ def hello():
 
 # mock JSON database of some staff's favorite cats 
 fav_cats = [
-        {'Harsh': 'Indian Billi',
-        {'Mon': 'Calico',
-        {'Saurav': 'All cats!',
+        {'Harsh': 'Indian Billi'},
+        {'Mon': 'Calico'},
+        {'Saurav': 'All cats!}',
         {'Drshi': 'Maine Coons'}]
 
 
