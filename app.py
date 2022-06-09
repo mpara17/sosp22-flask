@@ -30,7 +30,7 @@ def add_cat():
     # @TODO: add a staff and their favorite cat 
     return jsonify()
 
-@app.route('/favecat/<string:name>', methods=['PUT'])
+@app.route('/favcat/<string:name>', methods=['PUT'])
 def edit_cat(name):
     # @TODO: modify an entry in JSON 
     return jsonify()
