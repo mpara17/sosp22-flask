@@ -20,7 +20,7 @@ def get_all_cats():
 
 @app.route('/favcat/<string:name>', methods=['GET'])
 def get_one_cat(name):
-    # @TODO: get only ONE cat entry
+    # @TODO: get only one staff and their favorite cat
     return jsonify()
 
 @app.route('/favcat', methods=['POST'])
