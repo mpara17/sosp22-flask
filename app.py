@@ -8,12 +8,10 @@ def hello():
     return "Hello World!"
 
 # mock JSON database of some staff's favorite cats 
-fav_cats = [
-        {'Harsh': 'Indian Billi'},
-        {'Mon': 'Calico'},
-        {'Saurav': 'All cats!'},
-        {'Drshi': 'Maine Coons'}]
-
+fav_cats = [{'name': 'Harsh', 'breed': 'Indian Billi'},
+        {'name': 'Mon', 'breed' : 'Calico'},
+        {'name': 'Saurav', 'breed': 'All cats!'},
+        {'name': 'Drshi', 'breed': 'Maine Coons'}]
 
 @app.route('/favcat', methods=['GET'])
 def get_all_cats():
