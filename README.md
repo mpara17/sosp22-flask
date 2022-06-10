@@ -6,6 +6,6 @@ To make a copy of the code repo on your terminal, ``git clone https://github.com
 ## Run Server
 ``cd sosp22-flask`` and run ``flask run`` to run the server. 
 
-## How To Complete The Code
-Tutorial writeup: https://sosp22.com/flask
+## Workshop Writeup
+https://sosp22.com/flask
 
